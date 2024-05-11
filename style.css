@@ -1,0 +1,49 @@
+html{
+    background-color: hsl(275, 100%, 97%);
+    background-image: url("assets/images/background-pattern-desktop.svg");
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    min-width: 370px;
+}
+/*#background-image{
+   height: 150px;
+    background-image: url("assets/images/background-pattern-desktop.svg");
+}*/
+.faqs{
+    
+    width: 80%;
+    margin: 5% auto;
+    padding: 2% 5% ;
+    background-color: white;
+    border-radius: 25px;
+    max-width: 800px;
+    
+    
+}
+
+h1{
+    font-size: 2.5rem;
+    
+}
+.questions{
+    font-weight: bold;
+}
+
+.question-section{
+    display:flex;
+}
+.question-section input{
+   
+   margin-left: auto;
+
+}
+.answers{
+    color: hsl(292, 16%, 49%);
+}
+.hide{
+    display: none;
+}
+.plus:hover{
+    filter: brightness(120%);
+    opacity: 30%;
+}
